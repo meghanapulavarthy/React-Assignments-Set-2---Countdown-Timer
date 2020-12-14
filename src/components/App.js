@@ -1,3 +1,6 @@
+import React, { Component, useState, useEffect } from "react";
+import "../styles/App.css";
+
 class App extends React.Component {
   // write your code here
   constructor() {
@@ -46,3 +49,7 @@ class App extends React.Component {
       </div>
     );
   }
+
+}
+
+export default App;
